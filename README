@@ -7,3 +7,13 @@ for frontEnd install node_modules using
 for backend install modules from requirement.txt
 if needed also install django-cors-headers explicitly using
 -> "python -m pip install django-cors-headers"
+
+
+
+/////////////////////////// Fast Api //////////////////////
+
+So for fast api I've created a small appication to get random images or to search images as json response.
+just need fast api and uvicorn to run
+
+-> "pip install fastapi"
+-> "pip install uvicorn"
