@@ -68,7 +68,7 @@ function FormPage(props) {
                 email:inputVal['email'],
                 password:inputVal['password']
             }
-            console.log(data)
+
             fetch('http://127.0.0.1:8000/api/check/', {
                 method:"POST",headers: {
                     'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ function FormPage(props) {
                 email:inputVal['email'],
                 password:inputVal['password']
             }
-            console.log(data)
+
             fetch('http://127.0.0.1:8000/api/create/', {
                 method:"POST",headers: {
                     'Content-Type': 'application/json'
@@ -121,7 +121,7 @@ function FormPage(props) {
                 newPass:inputVal['newPass'],
                 name:inputVal['name']
             }
-            console.log(data)
+
             fetch('http://127.0.0.1:8000/api/update/', {
                 method:"POST",headers: {
                     'Content-Type': 'application/json'

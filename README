@@ -1,0 +1,9 @@
+This Project consists of both frontend and backend
+
+for frontEnd install node_modules using 
+-> "cd ./frontEnd"
+-> "npm i"
+
+for backend install modules from requirement.txt
+if needed also install django-cors-headers explicitly using
+-> "python -m pip install django-cors-headers"
